@@ -2708,7 +2708,7 @@ ngx_http_vhost_traffic_status_node_control_range_set(
                 state = NGX_HTTP_VHOST_TRAFFIC_STATUS_CONTROL_RANGE_GROUP;
             }
         } else if (control->zone->len == 3) {
-            if(ngx_strncmp(control->zone->data, '%2A', 3) == 0) {
+            if(ngx_strncmp(control->zone->data, "%2A", 3) == 0) {
                 state = NGX_HTTP_VHOST_TRAFFIC_STATUS_CONTROL_RANGE_GROUP;
             }
         }
